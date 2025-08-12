@@ -132,7 +132,21 @@ line-height: 2.9vw;
     color: white;
     margin-top: 35px;
 }
+.mainimg{
+    width: 45%;
+    height: auto;
+}
+.mainimg img{
+    height: 650px;
+    width: auto;
+}
 
+#homepara{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
 
 @media (max-width: 884px) {
     .navbar1{
