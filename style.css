@@ -6,6 +6,10 @@ html{
     background-color: #0B1221;
     color: #B0B8C3;
 }
+body{
+    overflow-y: auto;
+    overflow-x: hidden;
+}
 
 *{
     padding: 0;
@@ -61,6 +65,7 @@ html{
     height: auto;
     width: 45%;
     padding: 100px 100px 50px 100px;
+    
 }
 
 .p1{
@@ -108,10 +113,11 @@ line-height: 2.9vw;
 .resume{
     background-color: transparent;
     border: 2px solid #1D4ED8;
-    padding: 8px 16px;
+    padding: 10px 24px;
     border-radius: 50px;
     height: 50px;
-    font-size: 20px;
+    width: auto;
+    font-size: 1.3vw;
     color: white;
     margin-top: 35px;
 }
@@ -119,14 +125,13 @@ line-height: 2.9vw;
 .resume:hover{
     background-color: #1D4ED8;
     border: 2px solid #1D4ED8;
-    padding: 8px 16px;
+    padding: 10px 24px;
     border-radius: 50px;
     height: 50px;
-    font-size: 20px;
+    font-size: 1.3vw;
     color: white;
     margin-top: 35px;
 }
-
 
 
 @media (max-width: 884px) {
@@ -140,6 +145,30 @@ line-height: 2.9vw;
     margin: 0 auto;
     margin-top: 20px;
     position: sticky;
+    }
+    .paragraph{
+        height: auto;
+        width: 100%;
+        padding: 100px 10px 50px 10px;
+    }
+    .p1{
+    width: auto;
+    text-align: center;
+    font-size: 5.5vw;
+    line-height: 5vw;
+    }
+    .p2{
+    text-align: center;
+    font-size: 3vw;
+    width: 500px;
+    line-height: 3.5vw;
+    }
+    .p3{
+        text-align: center;
+        font-size: 2vw;
+        width: 550px;
+        margin-top: 30px;
+
     }
 }
 
