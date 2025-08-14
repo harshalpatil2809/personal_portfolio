@@ -9,10 +9,7 @@ html{
     background-color: #0B1221;
     color: #B0B8C3;
 }
-body{
-    width: 100%;
-    overflow-x: hidden;
-}
+
 
 .row1{
     width: 45%;
@@ -20,9 +17,11 @@ body{
 .row2{
     width: 45%;
 }
-.about-me,.Certifications,.experience,.Education p{
+.about-me p,.Certifications p,.experience p,.Education p{
     font-size: 20px;
-    
+}
+.about-me h1,.Certifications h1,.experience h1,.Education h1{
+    font-size: 30px;
 }
 .about-me{
     height:auto;
