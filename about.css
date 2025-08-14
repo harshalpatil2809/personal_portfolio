@@ -23,12 +23,13 @@ html{
 .about-me h1,.Certifications h1,.experience h1,.Education h1{
     font-size: 30px;
 }
+
 .about-me{
     height:auto;
     width: auto;
     border: 2px solid #1D4ED8;
     border-radius: 30px;
-    padding: 10px 20px;
+    padding: 40px 30px;
     text-align: justify;
     background-color: #1d4fd84a;
     box-shadow: 0 0 15px 10px rgba(0, 102, 255, 0.2);
@@ -38,7 +39,7 @@ html{
 
     border: 2px solid #1D4ED8;
     border-radius: 30px;
-    padding: 10px 20px;
+    padding: 40px 30px;
     text-align: justify;
     background-color: #1d4fd84a;
     box-shadow: 0 0 15px 10px rgba(0, 102, 255, 0.2);
@@ -50,7 +51,7 @@ html{
     width: auto;
     border: 2px solid #1D4ED8;
     border-radius: 30px;
-    padding: 10px 20px;
+    padding: 40px 30px;
     text-align: justify;
     background-color: #1d4fd84a;
     box-shadow: 0 0 15px 10px rgba(0, 102, 255, 0.2);
@@ -62,7 +63,7 @@ html{
     width: auto;
     border: 2px solid #1D4ED8;
     border-radius: 30px;
-    padding: 10px 20px;
+    padding: 40px 30px;
     text-align: justify;
     background-color: #1d4fd84a;
     box-shadow: 0 0 15px 10px rgba(0, 102, 255, 0.2);
@@ -83,13 +84,120 @@ html{
     .about{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 0px;
     justify-content: center;
-    margin-top: 50px;
+    
+}
+    
+    .about-me{
+    height:auto;
+    width: auto;
+    border: 2px solid #1D4ED8;
+    border-radius: 30px;
+    padding: 40px 30px;
+    text-align: justify;
+    background-color: #1d4fd84a;
+    box-shadow: 0 0 15px 10px rgba(0, 102, 255, 0.2);
+    margin: 0px 20px 0px 20px;
+}
+
+.Certifications{
+
+    border: 2px solid #1D4ED8;
+    border-radius: 30px;
+    padding: 40px 30px;
+    text-align: justify;
+    background-color: #1d4fd84a;
+    box-shadow: 0 0 15px 10px rgba(0, 102, 255, 0.2);
+    margin: 15px 20px 0px 20px;
+}
+
+.experience{
+    height:auto;
+    width: auto;
+    border: 2px solid #1D4ED8;
+    border-radius: 30px;
+    padding: 40px 30px;
+    text-align: justify;
+    background-color: #1d4fd84a;
+    box-shadow: 0 0 15px 10px rgba(0, 102, 255, 0.2);
+    margin: 15px 20px 0px 20px;
+}
+
+.Education{
+    height:auto;
+    width: auto;
+    border: 2px solid #1D4ED8;
+    border-radius: 30px;
+    padding: 40px 30px;
+    text-align: justify;
+    background-color: #1d4fd84a;
+    box-shadow: 0 0 15px 10px rgba(0, 102, 255, 0.2);
+    margin: 15px 20px 0px 20px;
+}
+
+.about-me p,.Certifications p,.experience p,.Education p{
+    font-size: 20px;
+}
+.about-me h1,.Certifications h1,.experience h1,.Education h1{
+    font-size: 45px;
 }
 }
 
 @media (max-width: 429px) {
 
-    
+        
+    .about-me{
+    height:auto;
+    width: auto;
+    border: 2px solid #1D4ED8;
+    border-radius: 30px;
+    padding: 40px 30px;
+    text-align: justify;
+    background-color: #1d4fd84a;
+    box-shadow: 0 0 15px 10px rgba(0, 102, 255, 0.2);
+    margin: 0px 10px 0px 10px;
+}
+
+.Certifications{
+
+    border: 2px solid #1D4ED8;
+    border-radius: 30px;
+    padding: 40px 30px;
+    text-align: justify;
+    background-color: #1d4fd84a;
+    box-shadow: 0 0 15px 10px rgba(0, 102, 255, 0.2);
+    margin: 15px 10px 0px 10px;
+}
+
+.experience{
+    height:auto;
+    width: auto;
+    border: 2px solid #1D4ED8;
+    border-radius: 30px;
+    padding: 40px 30px;
+    text-align: justify;
+    background-color: #1d4fd84a;
+    box-shadow: 0 0 15px 10px rgba(0, 102, 255, 0.2);
+    margin: 15px 10px 0px 10px;
+}
+
+.Education{
+    height:auto;
+    width: auto;
+    border: 2px solid #1D4ED8;
+    border-radius: 30px;
+    padding: 40px 30px;
+    text-align: justify;
+    background-color: #1d4fd84a;
+    box-shadow: 0 0 15px 10px rgba(0, 102, 255, 0.2);
+    margin: 15px 10px 0px 10px;
+}
+
+.about-me p,.Certifications p,.experience p,.Education p{
+    font-size: 16px;
+}
+.about-me h1,.Certifications h1,.experience h1,.Education h1{
+    font-size: 30px;
+}
 }
