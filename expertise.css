@@ -1,0 +1,41 @@
+.expertise img{
+    height: 40px;
+    width: auto;
+
+}
+.tech-lang h1, .tools h1, .soft-skill h1{
+    font-size: 50px;
+}
+.tech-lang, .tools, .soft-skill{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 90vw;
+    text-align: center;
+    gap: 30px;
+}
+
+.expertise-img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.expertise{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+}
+
+.tech-lang, .tools, .soft-skill{
+    border: 1px solid #1D4ED8 ;
+     border-radius: 30px;
+     background-color: #1d4fd84a;
+     box-shadow: 0 0 15px 10px rgba(0, 102, 255, 0.2);
+     padding: 10px 0px 10px 0px;
+}
+
+.expertise p{
+    font-size: 16px;
+}
