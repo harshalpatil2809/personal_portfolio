@@ -105,8 +105,9 @@ line-height: 2.9vw;
     justify-content: center;
     margin-top: 20px;
     gap: 50px;
-    
+    justify-content: center;
 }
+
 .social{
     display: flex;
     flex-direction: row;
