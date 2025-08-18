@@ -1,11 +1,66 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-#connect h1{
+.touch h1{
     font-family: "inter", serif;
     font-weight: 800;
     font-size: 3vw;
+    background: linear-gradient(90deg, #1D4ED8 0%, #3B82F6 48.56%, #1D4ED8 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+.touch p{
+    font-size: 20px;
+    text-align: center;
+}
+.touch{
+    padding-bottom: 100px;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    width: 80vw;
+    height: auto;
+    gap: 100px;
+    background-color: #1d4fd836;
+    border-radius: 50px;
+    padding: 50px 0px;
+}
+.connect-img img{
+    width: 400px;
+    height: auto;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 50px;
 }
 
-#connect p{
-    font-size: 20px;
+#name , #email{
+    width: 350px;
+    height: auto;
+    padding: 10px 20px 10px 20px;
+    background-color: transparent;
+    border: 2px solid #1D4ED8;
+    color: #B0B8C3;
+    outline: none;
+    border-radius: 50px;
+}
+#message{
+    width: 350px;
+    min-height: 170px;
+    background-color: transparent;
+    border: 2px solid #1D4ED8;
+    color: #B0B8C3;
+    outline: none;
+    border-radius: 30px;
+    resize: vertical;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 10px 20px 10px 20px;
+}
+#name::placeholder, #email::placeholder, #message::placeholder{
+    color: #B0B8C3;
 }

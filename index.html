@@ -201,21 +201,23 @@
 
     <!-- Connect Page -->
     <section id="connect">
-        <div>
-            <h1>GET IN TOUCH</h1>
-            <p>Let's create something amazing together — drop me a message!</p>
-        </div>
+        <div class="connect">
+            <div class="touch">
+                <h1>GET IN TOUCH</h1>
+                <p>Let's create something amazing together — drop me a message!</p>
+            </div>
             <div class="contact">
-                <div>
-                    <input type="text" placeholder="Name">
-                    <input type="email" placeholder="Email" autocomplete="off" autocorrect="off">
-                    <input type="text" placeholder="Message">
-                    <input type="submit" value="Send Message">
-                </div>
-                <div>
-                    <img src="" alt="">
+                <form action="/submit">
+                    <input type="text" name="name" id="name" placeholder="Name">
+                    <input type="email" name="email" id="email" placeholder="E-Mail">
+                    <textarea name="message" id="message" placeholder="Message" ></textarea>
+                    <input type="button" value="Submit" class="submit">
+                </form>
+                <div class="connect-img">
+                    <img src="Images/blue-moon.svg" alt="">
                 </div>
             </div>
+        </div>
     </section>
     </main>
 </body>
