@@ -315,4 +315,7 @@ section{
     font-size: 3vw;
     text-align: center;
 }
+html{
+    overflow-x: hidden;
+}
 }
