@@ -111,9 +111,13 @@ line-height: 2.9vw;
     border: none;
     padding: 12px 34px;
     border-radius: 50px;
+    
+}
+.btn1 a{
     font-size: 20px;
     color: white;
     cursor: pointer;
+    text-decoration: none;
 }
 .btn{
     display: flex;
@@ -121,6 +125,9 @@ line-height: 2.9vw;
     margin-top: 20px;
     gap: 50px;
     justify-content: center;
+}
+.btn button{
+    margin: 0;
 }
 
 .social{
@@ -187,12 +194,16 @@ section{
     align-items: center;
     width: 100vw;
     height: 10vw;
+    font-size: 16px;
 }
 .footer1{
     color: #1D4ED8;
     line-height: 50px;
 }
 @media (max-width: 884px) {
+    .footer1{
+        line-height: 20px;
+    }
     .navbar1{
     display: flex;
     justify-content:space-between;
@@ -262,6 +273,7 @@ section{
     min-height:100vh;
     overflow-y: visible;
 }
+    
 }
 
 @media (max-width: 429px) {
@@ -318,4 +330,20 @@ section{
 html{
     overflow-x: hidden;
 }
+
+
+.btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 20px;
+    justify-content: center;
+}
+.btn1 a{
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
 }

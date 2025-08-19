@@ -87,15 +87,7 @@ form{
     border: none;
     outline: none;
 }
-/* .connect-img1 div{
-    height: 40px;
-    width: 40px;
-    border-radius: 50%;
-    background-color: black;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-} */
+
 .connect-img1{
     display: flex;
     justify-content: center;
