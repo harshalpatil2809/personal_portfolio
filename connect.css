@@ -83,17 +83,31 @@ form{
 .connect-img1 div img{
     width: 40px;
     height: auto;
-
+    border-radius: 50%;
+    border: none;
+    outline: none;
 }
+/* .connect-img1 div{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+} */
 .connect-img1{
     display: flex;
     justify-content: center;
     gap: 30px;
+    
 }
 .cm2{
     display: none;
 }
-
+.connect-img1 img:hover{
+     box-shadow: 0 0 15px 10px rgba(0, 102, 255, 0.8);
+}
 @media (max-width: 884px){
     .connect-imgs{
         display: none;

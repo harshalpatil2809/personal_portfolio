@@ -4,11 +4,12 @@
 html{
     background-color: #0B1221;
     color: #B0B8C3;
+    scroll-behavior: smooth;
 }
 body{
     overflow-y: scroll;
     overflow-x: hidden;
-    scroll-behavior: smooth;
+
 }
 
 *{
@@ -17,6 +18,20 @@ body{
     font-family: "Spectral", serif ;
 }
 
+/* Scrolling bar CSS */
+::-webkit-scrollbar {
+  width: 5px; 
+}
+::-webkit-scrollbar-track {
+  background: transparent; 
+}
+::-webkit-scrollbar-thumb {
+  background: #3A4B66;
+  border-radius: 6px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #556B8E;
+}
 
 
 /* navbar css */
@@ -121,6 +136,8 @@ line-height: 2.9vw;
     border-radius: 50%; 
     transition: box-shadow 0.3s ease-in-out;
     cursor: pointer;
+    border: none;
+    outline: none;
 }
 .icon img:hover{
     box-shadow: 0 0 15px 10px rgba(0, 102, 255, 0.8);
@@ -160,6 +177,20 @@ line-height: 2.9vw;
 section{
     min-height: 100vh;
     min-width: 100vw;
+}
+
+.footer{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 10vw;
+}
+.footer1{
+    color: #1D4ED8;
+    line-height: 50px;
 }
 @media (max-width: 884px) {
     .navbar1{
